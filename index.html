@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta name="google-site-verification" content="GWZifuecvEUSMR7b6ZhILerCxaYm60nqVOHlRV-YSt4" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ORIVIA SIRÉ — Innover, construire, connecter. Boutique, média, immobilier, BTP et services.">
+<meta name="theme-color" content="#06142f">
+<title>ORIVIA SIRÉ — Innover • Construire • Connecter</title>
+<style>
+:root{--navy:#06142f;--deep:#020817;--gold:#f6c945;--gold2:#ffdf75;--white:#f8f9ff;--muted:#b9c4d8;--line:rgba(246,201,69,.35)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--deep);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.55}
+a{color:inherit;text-decoration:none}.wrap{width:min(1160px,92%);margin:auto}
+.topline{background:#020817;border-bottom:1px solid var(--line);color:var(--gold2);font-size:.86rem;padding:8px 0}
+.topline .wrap{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+header{position:sticky;top:0;z-index:20;background:rgba(3,12,29,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.4px;font-size:1.55rem}
+.brand-mark{width:48px;height:48px;border:2px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:1.5rem;box-shadow:0 0 18px #f6c94555}
+.brand span span{color:var(--gold)}
+nav{display:flex;gap:21px;align-items:center;font-weight:700;font-size:.92rem}
+nav a:hover{color:var(--gold)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:linear-gradient(135deg,var(--gold2),#e6a900);color:#15100a;padding:12px 20px;border-radius:30px;font-weight:900;border:0;cursor:pointer}
+.menu{display:none;background:none;color:var(--gold);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:1.3rem}
+.hero{position:relative;overflow:hidden;padding:88px 0 75px;background:radial-gradient(ellipse at 78% 30%,#164b9b 0%,transparent 38%),linear-gradient(115deg,#071632,#020817 70%)}
+.hero:after{content:"";position:absolute;width:520px;height:520px;border:1px solid #f6c94544;border-radius:50%;right:-150px;top:-170px;box-shadow:0 0 0 35px #f6c9450a,0 0 0 75px #f6c94508}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;position:relative;z-index:1}
+.kicker{color:var(--gold);font-weight:800;letter-spacing:2px;text-transform:uppercase}
+h1{font-size:clamp(2.8rem,6vw,5.4rem);line-height:.98;margin:15px 0 22px;letter-spacing:-2px}
+h1 em{font-style:normal;color:var(--gold)}
+.hero p{font-size:1.2rem;color:#dce5f5;max-width:560px}
+.hero-actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:28px}
+.btn-outline{display:inline-flex;align-items:center;padding:11px 20px;border:1px solid var(--gold);border-radius:30px;color:var(--gold);font-weight:800}
+.hero-card{min-height:360px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(145deg,#12366d,#07152e 65%);display:flex;flex-direction:column;justify-content:flex-end;padding:28px;box-shadow:0 20px 65px #0008;position:relative;overflow:hidden}
+.hero-card:before{content:"♛";position:absolute;right:20px;top:-32px;font-size:15rem;color:#f6c94512}.portrait-card{padding:0;min-height:420px;isolation:isolate}.portrait-card .portrait{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 24%;z-index:-2}.portrait-card:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,rgba(2,8,23,.96));z-index:-1}.portrait-caption{padding:28px;position:relative}.portrait-caption h2{margin:0;color:var(--gold2)}.portrait-caption p{margin:4px 0 0;color:white}
+.hero-card .eagle{font-size:5rem;color:var(--gold);line-height:1}
+.hero-card h2{font-size:2rem;margin:8px 0;color:var(--gold2)}
+.hero-card p{font-size:1rem;margin:0}
+section{padding:76px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 35px}
+.section-head .kicker{font-size:.82rem}.section-head h2{font-size:clamp(2rem,4vw,3rem);margin:8px 0}.section-head p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}
+.service{background:linear-gradient(150deg,#0d2851,#061127);border:1px solid var(--line);border-radius:18px;padding:24px 20px;min-height:190px;transition:.2s}
+.service:hover{transform:translateY(-5px);box-shadow:0 12px 30px #0007;border-color:var(--gold)}
+.service .ico{font-size:2.1rem;color:var(--gold)}.service h3{margin:10px 0 5px;font-size:1.15rem}.service p{margin:0;color:var(--muted);font-size:.92rem}
+.dark-section{background:#071329;border-top:1px solid #ffffff0d;border-bottom:1px solid #ffffff0d}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}
+.feature-panel{padding:30px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(135deg,#102d5a,#050d1e)}
+.feature-panel h3{color:var(--gold);font-size:1.65rem;margin-top:0}
+.feature-panel p{color:var(--muted)}
+.tags{display:flex;gap:9px;flex-wrap:wrap;margin:20px 0}.tag{border:1px solid var(--line);border-radius:20px;padding:6px 12px;color:var(--gold2);font-size:.85rem}
+.cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.project{border-radius:18px;overflow:hidden;border:1px solid var(--line);background:#07152d}
+.project-art{height:155px;background:linear-gradient(135deg,#173e75,#071329);display:grid;place-items:center;font-size:3.8rem;color:var(--gold)}
+.project-body{padding:18px}.project-body h3{margin:0 0 7px}.project-body p{margin:0;color:var(--muted);font-size:.92rem}
+.contact-box{display:grid;grid-template-columns:1fr 1fr;gap:30px;background:linear-gradient(120deg,#0d2a54,#050d1e);border:1px solid var(--line);padding:32px;border-radius:24px}
+.contact-box p{color:var(--muted)}.contact-form{display:grid;gap:12px}
+input,textarea{width:100%;padding:13px 14px;border-radius:10px;border:1px solid #ffffff2a;background:#020817;color:white;font:inherit}
+textarea{min-height:115px;resize:vertical}
+footer{padding:28px 0;background:#020817;border-top:1px solid var(--line);color:var(--muted)}
+footer .wrap{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.gold{color:var(--gold)}.small{font-size:.84rem;color:var(--muted)}
+.notice{font-size:.82rem;color:#aebbd0;margin-top:12px}
+@media(max-width:900px){nav{display:none;position:absolute;top:82px;left:0;right:0;background:#030c1d;padding:20px 5%;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line)}nav.open{display:flex}.menu{display:block}.hero-grid,.split,.contact-box{grid-template-columns:1fr}.hero{padding:60px 0}.hero-card{min-height:260px}.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.grid,.cards3{grid-template-columns:1fr}.brand{font-size:1.15rem}.brand-mark{width:40px;height:40px}.hero-card{min-height:220px}section{padding:55px 0}.topline .wrap{font-size:.75rem}}
+</style>
+</head>
+<body>
+<div class="topline"><div class="wrap"><span>✦ INNOVER • CONSTRUIRE • CONNECTER</span><span>ORIVIA SIRÉ — Ensemble pour un monde meilleur</span></div></div>
+<header><div class="wrap nav">
+<a class="brand" href="#accueil"><span class="brand-mark">✦</span><span>ORIVIA <span>SIRÉ</span></span></a>
+<button class="menu" id="menuBtn" aria-label="Ouvrir le menu">☰</button>
+<nav id="mainNav">
+<a href="#accueil">Accueil</a><a href="#univers">Nos activités</a><a href="#boutique">Boutique</a><a href="#media">ORIVIA TV</a><a href="#immobilier">Immobilier</a><a href="#contact">Contact</a><a href="https://tiktok.com/@aigle.du.bloc" target="_blank" rel="noopener">TikTok</a><a href="https://youtube.com/@orivia_officiel" target="_blank" rel="noopener">YouTube</a>
+</nav>
+<a class="nav-cta" href="#contact">Nous contacter</a>
+</div></header>
+
+<main>
+<section class="hero" id="accueil"><div class="wrap hero-grid">
+<div><div class="kicker">Bienvenue dans notre univers</div><h1>ORIVIA <em>SIRÉ</em></h1>
+<p>Tout ce dont vous avez besoin, au même endroit. Une plateforme dédiée au commerce, aux médias, au bâtiment, à l'innovation et aux services.</p>
+<div class="hero-actions"><a class="btn" href="#univers">Découvrir ORIVIA&nbsp; →</a><a class="btn-outline" href="#contact">Parlons de votre projet</a></div>
+</div>
+<div class="hero-card portrait-card"><img class="portrait" src="portrait-orivia.png" alt="Portrait du fondateur d’ORIVIA SIRÉ"><div class="portrait-caption"><h2>ORIVIA SIRÉ</h2><p>Innover. Construire. Connecter.</p></div></div>
+</div></section>
+
+<section id="univers"><div class="wrap">
+<div class="section-head"><div class="kicker">Un seul univers, plusieurs possibilités</div><h2>Découvrez <span class="gold">ORIVIA SIRÉ</span></h2><p>Explorez nos différents espaces et trouvez le service qui correspond à vos besoins.</p></div>
+<div class="grid">
+<a class="service" href="#boutique"><div class="ico">🛍️</div><h3>Boutique</h3><p>Produits, équipements et articles du quotidien.</p></a>
+<a class="service" href="#media"><div class="ico">📺</div><h3>ORIVIA TV</h3><p>Vidéos, reportages, culture et actualités.</p></a>
+<a class="service" href="#immobilier"><div class="ico">🏡</div><h3>Immobilier</h3><p>Découvrez des biens et des projets immobiliers.</p></a>
+<a class="service" href="#btp"><div class="ico">🏗️</div><h3>BTP & Services</h3><p>Construction, plomberie, électricité et travaux.</p></a>
+<a class="service" href="#media"><div class="ico">📰</div><h3>Actualités</h3><p>Restez informé des sujets qui comptent.</p></a>
+<a class="service" href="#media"><div class="ico">🎵</div><h3>Musique & Culture</h3><p>Artistes, créations et découvertes culturelles.</p></a>
+<a class="service" href="#btp"><div class="ico">💡</div><h3>Innovation</h3><p>Technologie, idées et solutions nouvelles.</p></a>
+<a class="service" href="#contact"><div class="ico">🤝</div><h3>Partenariats</h3><p>Collaborons pour donner vie à vos projets.</p></a>
+</div></div></section>
+
+<section class="dark-section" id="boutique"><div class="wrap split">
+<div><div class="kicker">Acheter simplement</div><h2>La boutique <span class="gold">ORIVIA</span></h2><p>Un espace pour découvrir des produits, des équipements et des matériaux utiles à vos projets. Contactez-nous pour connaître les disponibilités et les tarifs.</p><div class="tags"><span class="tag">Matériaux</span><span class="tag">Quincaillerie</span><span class="tag">Équipement</span><span class="tag">Habillement</span></div><a class="btn" href="#contact">Demander un renseignement →</a></div>
+<div class="feature-panel"><h3>Votre besoin, notre priorité.</h3><p>La boutique évoluera avec un catalogue de produits, des fiches détaillées et un parcours de commande simple.</p><p class="small">Catalogue et paiement en ligne à configurer lors de la mise en service.</p></div>
+</div></section>
+
+<section id="media"><div class="wrap split">
+<div class="feature-panel"><div class="ico">▶</div><h3>ORIVIA TV</h3><p>Une fenêtre ouverte sur l'information, le sport, la culture, les événements et les histoires de nos communautés.</p><a class="btn-outline" href="#contact">Proposer un sujet</a></div>
+<div><div class="kicker">Informer • Inspirer • Valoriser</div><h2>Les images racontent, les voix transmettent.</h2><p class="small">Retrouvez ici les émissions, reportages, interviews et créations vidéo d'ORIVIA TV. Les liens vers YouTube et les réseaux sociaux seront ajoutés dès que tu me les communiqueras.</p></div>
+</div></section>
+
+<section class="dark-section" id="immobilier"><div class="wrap">
+<div class="section-head"><div class="kicker">Construisons ensemble votre avenir</div><h2>Immobilier & <span class="gold">Bâtiment</span></h2><p>Un espace pour présenter les projets, réalisations et services liés à l'habitat et à la construction.</p></div>
+<div class="cards3">
+<div class="project"><div class="project-art">🏠</div><div class="project-body"><h3>Immobilier</h3><p>Présentation de biens, terrains et opportunités immobilières.</p></div></div>
+<div class="project" id="btp"><div class="project-art">🏗️</div><div class="project-body"><h3>Construction & BTP</h3><p>Travaux, suivi de chantier, plomberie et électricité.</p></div></div>
+<div class="project"><div class="project-art">📐</div><div class="project-body"><h3>Architecture</h3><p>Conception, plans et accompagnement de vos idées.</p></div></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap">
+<div class="section-head"><div class="kicker">Entrons en contact</div><h2>Parlons de votre <span class="gold">projet</span></h2><p>Une question, une demande de service ou une proposition de partenariat ? Écrivez-nous.</p></div>
+<div class="contact-box"><div><h3 class="gold">ORIVIA SIRÉ</h3><p>Innover • Construire • Connecter</p><p>Nous préparons une plateforme pour rapprocher les services, les créateurs, les entreprises et le public.</p><p class="small">Téléphone : <a class="gold" href="tel:+221773396222">77 339 62 22</a> / <a class="gold" href="tel:+221763396222">76 339 62 22</a><br>E-mail : <a class="gold" href="mailto:lofallou6222@gmail.com">lofallou6222@gmail.com</a><br>TikTok : <a class="gold" href="https://tiktok.com/@aigle.du.bloc" target="_blank" rel="noopener">@aigle.du.bloc</a><br>YouTube : <a class="gold" href="https://youtube.com/@orivia_officiel" target="_blank" rel="noopener">ORIVIA Officiel</a></p></div>
+<form class="contact-form" id="contactForm"><input id="name" placeholder="Votre nom" required><input id="email" type="email" placeholder="Votre adresse e-mail" required><textarea id="message" placeholder="Votre message" required></textarea><button class="btn" type="submit">Préparer mon message →</button><div class="notice" id="formNotice">Le bouton ouvre votre application e-mail pour écrire à ORIVIA SIRÉ.</div></form>
+</div></div></section>
+</main>
+<footer><div class="wrap"><div><strong class="gold">ORIVIA SIRÉ</strong><div class="small">Ensemble pour un monde meilleur.</div></div><div class="small">© <span id="year"></span> ORIVIA SIRÉ. Tous droits réservés.</div></div></footer>
+<script>
+const menuBtn=document.getElementById('menuBtn'), nav=document.getElementById('mainNav');
+menuBtn.addEventListener('click',()=>nav.classList.toggle('open'));
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('contactForm').addEventListener('submit',e=>{
+ e.preventDefault();
+ const name=document.getElementById('name').value.trim();
+ const email=document.getElementById('email').value.trim();
+ const msg=document.getElementById('message').value.trim();
+ const subject=encodeURIComponent('Message depuis le site ORIVIA SIRÉ');
+ const body=encodeURIComponent('Nom : '+name+'\nE-mail : '+email+'\n\nMessage :\n'+msg);
+ window.location.href='mailto:lofallou6222@gmail.com?subject='+subject+'&body='+body;
+ document.getElementById('formNotice').textContent='Votre application e-mail va s’ouvrir pour envoyer le message à ORIVIA SIRÉ.';
+});
+</script>
+</body></html>
